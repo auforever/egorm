@@ -200,13 +200,12 @@ func peerInfo(addr string) (hostname string, port int) {
 
 func fileWithLineNum() string {
 	// the second caller usually from internal, so set i start from 2
-	for i := 0; i < 15; i++ {
+	for i := 2; i < 15; i++ {
 		_, file, line, ok := runtime.Caller(i)
 		if !ok {
 			break
 		}
-		fmt.Printf("i is %d, file is %s", i, file)
-		if (!(strings.Contains(file, "auforever/egorm") && strings.HasSuffix(file, "interceptor.go")) && !strings.Contains(file, "gorm.io/gorm")) || strings.HasSuffix(file, "_test.go") {
+		if (!(strings.Contains(file, "auforever/egorm") && strings.HasSuffix(file, "interceptor.go")) && !strings.Contains(file, "gorm.io/gorm") && !strings.Contains(file, "internal/db/db.go")) || strings.HasSuffix(file, "_test.go") {
 			return file + ":" + strconv.FormatInt(int64(line), 10)
 		}
 	}
