@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
 )

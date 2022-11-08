@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	"gorm.io/gorm"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 )
 
 // Handler ...

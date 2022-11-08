@@ -5,7 +5,7 @@ import (
 
 	"github.com/gotomicro/ego/core/util/xtime"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 )
 
 // config options

@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	"github.com/ego-component/egorm"
+	"github.com/auforever/egorm"
 	"github.com/gotomicro/ego"
 	"github.com/gotomicro/ego/core/elog"
 	"github.com/gotomicro/ego/core/transport"

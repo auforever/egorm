@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/ego-component/egorm"
+	"github.com/auforever/egorm"
 	"github.com/gotomicro/ego/core/econf"
 	"github.com/gotomicro/ego/core/econf/manager"
 	"github.com/gotomicro/ego/core/elog"

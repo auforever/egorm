@@ -7,7 +7,7 @@ import (
 	"gorm.io/driver/clickhouse"
 	"gorm.io/gorm"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 )
 
 var (

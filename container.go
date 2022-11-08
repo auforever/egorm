@@ -3,8 +3,8 @@ package egorm
 import (
 	"fmt"
 
-	_ "github.com/ego-component/egorm/internal/dsn"
-	"github.com/ego-component/egorm/manager"
+	_ "github.com/auforever/egorm/internal/dsn"
+	"github.com/auforever/egorm/manager"
 	"github.com/gotomicro/ego/core/econf"
 	"github.com/gotomicro/ego/core/elog"
 	"github.com/gotomicro/ego/core/emetric"

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

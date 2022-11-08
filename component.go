@@ -3,7 +3,7 @@ package egorm
 import (
 	"context"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 	"github.com/gotomicro/ego/core/elog"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"

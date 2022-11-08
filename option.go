@@ -1,7 +1,7 @@
 package egorm
 
 import (
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 )
 
 // Option 可选项

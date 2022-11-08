@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ego-component/egorm/manager"
+	"github.com/auforever/egorm/manager"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

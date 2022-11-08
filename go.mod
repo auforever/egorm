@@ -1,4 +1,4 @@
-module github.com/ego-component/egorm
+module github.com/auforever/egorm
 
 go 1.17
 
